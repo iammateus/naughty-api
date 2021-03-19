@@ -1,0 +1,16 @@
+{
+  "name": "naughty-api",
+  "version": "1.0.0",
+  "description": "A very naughty API that gives random results",
+  "main": "index.js",
+  "repository": "git@github.com:iammateus/naughty-api.git",
+  "author": "Mateus Soares <mateussoaress1997@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+      "express": "~4.16.1",
+      "nodemon": "^2.0.4"
+  }
+}
