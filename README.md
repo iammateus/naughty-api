@@ -1,6 +1,6 @@
 # naughty-api
 
-This API doesn't like to be too much predictable, so it decided to give random http codes to its consumers.
+This API didn't like being predictable, so it decided to return random http codes to its clients.
 
 ## Requeriments
 
