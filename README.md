@@ -1,8 +1,6 @@
 # naughty-api
 
-A very naughty API that gives random results.
-
-This API doesn't like to be too much predictable, so it decided to give random results to its consumers.
+This API doesn't like to be too much predictable, so it decided to give random http codes to its consumers.
 
 ## Requeriments
 
