@@ -17,6 +17,7 @@ app.get("/", async (req, res) => {
     const possibleStatusCodes = Object.keys(http.STATUS_CODES)
     const statusCode = possibleStatusCodes[getRandomInt(0, possibleStatusCodes.length)]
     const statusMessage = http.STATUS_CODES[statusCode]
+    await delay(1000);
     console.log({statusCode,statusMessage})
     res.status(statusCode).json({
         message: "I'm naughty",
